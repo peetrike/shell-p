@@ -1,0 +1,3 @@
+#!/bin/ksh
+
+day() { date +'%A, %B %e'; }
