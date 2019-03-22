@@ -7,9 +7,9 @@ date
 pwd # rea lõpu kommentaar
 
 # output/error redirect
-# töötab
+    # töötab
 rm bozzo > minu.txt 2>&1
-#ei tööta
+    # ei tööta
 rm bozzo > minu.txt 2&>1
 
     # viskame väljundi ära
