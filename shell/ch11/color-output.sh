@@ -37,23 +37,21 @@ echo " ${under}happening${normal}\c"
 sleep 1
 
 tput cup 12 34
-echo "${standout}and${normal} even ${reverse}more${normal} ..."
+echo "${standout}standout${normal} and ${reverse}reverse${normal} ..."
 sleep 1
 
 tput cup 9 52
-echo "${redback}what now?${normal}"
+echo "${redback}red background?${normal}"
 sleep 1
 
 tput cup 6 48
 echo "${shadow}shadow ${italic}tilted ${wide}wide${normal}"
 sleep 1
 
-
 tput cup 15 8
-echo "${blink}and ${dim}now?${normal}"
+echo "${blink}blinking ${dim}dimmed?${normal}"
 tput flash
 sleep 1
-
 
 
 tput rc # restore cursor position
