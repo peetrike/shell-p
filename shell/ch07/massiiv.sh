@@ -1,4 +1,4 @@
-#!/bin/ksh
+#!/bin/bash
 
 massiiv[1]=mina
 massiiv[2]=tema

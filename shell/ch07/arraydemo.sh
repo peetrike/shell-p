@@ -1,7 +1,7 @@
-#!/bin/ksh
+#!/bin/bash
 
 cat pets | while read line
 do
-    set -A pet $line
+    pet=($line)
     echo "loom ${pet[0]}, nimi ${pet[1]}"
 done
