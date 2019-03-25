@@ -19,5 +19,5 @@ then echo "B on vaikeväärtus (3)"
 fi
 
 if [ "yes" = "$answer" ] ; then
-    echo B on jah
+    echo "Vastus on jah"
 fi
