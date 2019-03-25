@@ -1,4 +1,4 @@
-#!/bin/ksh
+#!/bin/bash
 
     #ksh style
 #set -A pets dog cat fish rabbit

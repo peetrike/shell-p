@@ -15,4 +15,3 @@ done
 
 set +v
 echo aitab küll
-

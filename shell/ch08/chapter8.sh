@@ -10,7 +10,7 @@ done
 echo "All arguments as originally quoted:"
 for katse2 #in "$@"
 do
-    echo $katse2 
+    echo $katse2
 done
 
 while [ "X" != "X$1" ]

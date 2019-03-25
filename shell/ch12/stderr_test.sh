@@ -1,4 +1,4 @@
-#!/bin/ksh
+#!/bin/sh
 # stderr_test
 {
     echo "This goes to standard error."
