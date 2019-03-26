@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "teeme midagi"
 # siin teeme
@@ -12,6 +12,6 @@ case $answer in
         echo "ma siis rohkem ei tee" ;;
     ei) echo "paha lugu" ;;
     yes) echo "ok" ;;
-    [Nn]) echo "too bad" ;;
+    [Nn]*) echo "too bad" ;;
     *) echo "teine kord siis" ;;
 esac
