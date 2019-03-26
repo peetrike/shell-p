@@ -1,0 +1,12 @@
+#!/bin/ksh
+#lockbanner
+trap "banner 'back now'; exit" 16
+
+now=`date`
+while [ 0 ] 
+do
+	sleep 2
+	echo
+	echo "Left at $now"
+	echo "		"`date`:STILL GONE!
+done

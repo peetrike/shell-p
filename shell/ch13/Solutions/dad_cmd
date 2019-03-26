@@ -1,0 +1,14 @@
+#!/bin/ksh
+# dad_cmd
+# the parent script
+tty=`tty`
+son_cmd $tty |&
+while :
+do
+	print -n "dad: Enter a command for son to run: "
+	read command
+	print -p $command  #send cmd to son
+	if [ "$command" = q ];then exit; fi
+	read -p status 
+	print "dad: Exit status from son: $status"
+done

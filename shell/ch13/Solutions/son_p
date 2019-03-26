@@ -1,0 +1,10 @@
+#!/bin/ksh
+# son_p
+print "Son going to read from stdin (i.e., from dad)..."
+read r < dad_son_pipe
+print "Son read: $r"
+print "Son sending bye to dad"
+print bye > dad_son_pipe
+print "for good!" > dad_son_pipe
+print "Son is done"
+exit

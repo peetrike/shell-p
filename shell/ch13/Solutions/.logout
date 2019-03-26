@@ -1,0 +1,4 @@
+# File: .logout
+#!/bin/ksh
+echo "Logging off"
+sleep 2 #Ensure message doesn't disappear too quickly

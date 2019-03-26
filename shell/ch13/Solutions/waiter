@@ -1,0 +1,11 @@
+#!/bin/ksh
+# waiter
+echo Starting
+start=`date +%S`
+sleep 2 &
+sleep 10 &
+wait 
+finish=`date +%S`
+if [ $start -gt $finish ];then let finish=$finish+60; fi
+let elapsed=$finish-$start
+echo Slowest sleep is done, took $elapsed seconds

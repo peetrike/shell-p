@@ -1,0 +1,2 @@
+#File: find_core
+find / -type f -name core -print > core_files

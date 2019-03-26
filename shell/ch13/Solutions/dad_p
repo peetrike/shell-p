@@ -1,0 +1,14 @@
+#/bin/ksh
+# dad_p
+#before running this script, do: mknod dad_son_pipe p
+son_p &
+print "Dad sending hello to son..."
+print hello > dad_son_pipe
+print "Dad going to read from son..."
+sleep 1
+read r < dad_son_pipe
+print "Dad read: $r"
+sleep 1 
+read r < dad_son_pipe
+print "Dad read: $r"
+exit

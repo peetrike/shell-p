@@ -1,0 +1,3 @@
+# File: keep_going
+
+nohup find / -type f -name core -print >core_file

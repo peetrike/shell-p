@@ -1,0 +1,12 @@
+#!/bin/ksh
+# son_cmd
+# the child script
+OUT=$1
+while :
+do
+	read command
+	if [ "$command" = q ]; then exit; fi
+	print "son: command read: $command" >$OUT
+	$command > $OUT
+	print $?
+done
