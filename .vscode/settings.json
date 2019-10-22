@@ -2,8 +2,8 @@
     "files.defaultLanguage": "shellscript",
     "files.encoding": "utf8",
     "files.eol": "\n",
-
-    "terminal.integrated.shell.windows": "C:\\Users\\cpg4285\\AppData\\Local\\Microsoft\\WindowsApps\\debian.exe",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+
+    "terminal.integrated.shell.windows": "C:\\Users\\cpg4285\\AppData\\Local\\Microsoft\\WindowsApps\\debian.exe",
 }
