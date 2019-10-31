@@ -9,7 +9,7 @@ PS4="+ Debug:  "
 echo tere
 for i in 1 2 3 4 5
 do
-	echo see on ${i}. kord
+    echo see on ${i}. kord
 done
 
 # siit alates on korras

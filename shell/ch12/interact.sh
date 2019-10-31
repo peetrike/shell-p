@@ -1,9 +1,9 @@
 #!/bin/sh
 
 pause() {
-#    echo "Press RETURN to continue" >&2
+    # echo "Press RETURN to continue" >&2
     echo "Press Ctrl-C to break" >&2
-#    read junk
+    # read junk
     sleep 3
 }
 
