@@ -1,16 +1,25 @@
 root = true
 
 [*]
-indent_style = space
-indent_size = 4
+indent_style = tab
+tab_width = 8
 charset = utf-8
 trim_trailing_whitespace = false
 insert_final_newline = false
 
+[*.json]
+indent_style = space
+indent_size = 2
+
+# markdown files
 [*.md]
+indent_style = space
 indent_size = 2
 max_line_length = 80
 
-[*.sh]
+# scripts
+[*.*sh]
+indent_style = space
+indent_size = 4
 trim_trailing_whitespace = true
 insert_final_newline = true
