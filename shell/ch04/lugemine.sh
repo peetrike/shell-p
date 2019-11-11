@@ -1,3 +1,4 @@
+#/bin/sh
 echo -e "mis on sinu nimi: \c"
 read nimi
 
