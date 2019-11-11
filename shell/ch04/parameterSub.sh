@@ -4,10 +4,14 @@
 # substitute, if not set
 foo=asdf
 echo ${foo-bar}xyz}
+
 foo=
 echo ${foo-bar}xyz}
+echo ${foo:-bar}xyz}
+
 unset foo
 echo ${foo-bar}xyz}
+
 
 Backup_path=${BACKUPPATH:-$HOME/.backup}
 cp -r * $Backup_path
@@ -22,6 +26,7 @@ echo $X
 # error if not set
 unset posix
 echo ${posix:?}
+echo ${posix:?muutujal pole väärtust või see on tühi string}
 
 
 # substring match left
