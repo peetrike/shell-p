@@ -8,14 +8,14 @@ arg_a=""
 
 while getopts ":a:bc" opt
 do
-    case $opt in 
+    case $opt in
         a)  opt_a=1
             arg_a=$OPTARG ;;
         b)  opt_b=1;;
         c)  opt_c=1;;
         \?) echo "unknown option: $OPTARG"
             echo "usage: myscript [-a arg] [-b] [-c] args..."
-			exit 1;;
+            exit 1;;
         :)  echo "required argument missing for option $OPTARG";;
   esac
 done

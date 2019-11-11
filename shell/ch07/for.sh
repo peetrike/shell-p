@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#loenduriga tsükkel
+#loop with counter
 for count in $(seq 10)
 do
     echo "rida $count"
@@ -10,7 +10,7 @@ echo "-------------------"
 # foreach filename...
 for file in *
 do
-    # echo "leidsin faili: $file"
+    # echo "found file: $file"
     file $file
 done
 echo "-------------------"
@@ -22,13 +22,15 @@ done
 echo "-------------------"
 
 
+# foreach command line argument
 set yks kaks kolm neli
 for var #in $@
 do
     echo parameeter $var
 done
 
-# töötab Korn/bash shelliga
+
+# works only with Korn/bash shell
 for ((a=1;a<10; a=a+1))
 do
     echo number $a

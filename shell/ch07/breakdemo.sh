@@ -1,6 +1,7 @@
 #!/bin/sh
 
 break
+
 for j in $(seq 10) ; do
     echo "\tJ on $j"
     i=1
@@ -11,7 +12,7 @@ for j in $(seq 10) ; do
         fi
         if [ $i -eq 4 ] ; then
             i=6
-            continue 
+            continue
         fi
         i=$(($i+1))
     done

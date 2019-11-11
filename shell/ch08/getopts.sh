@@ -5,15 +5,14 @@ usage_showed=0
 while getopts Aa:b-:c opt
 do
     case $opt in
-        a)  echo "sa ütlesid a" 
+        a)  echo "sa ütlesid a"
             echo "lisaargument: $OPTARG"
         ;;
         A) echo "Appi - A" ;;
         b) echo "sa ütlesid b" ;;
-       +b) echo "Parameeter B välja" ;; # see töötab vaid KSH-ga
         c) echo "võti c" ;;
         -) echo "pikk võti: $OPTARG" ;;
-       \?)  
+       \?)
             if [ 0 -eq "$usage_showed" ]
             then
                 echo "usage: $0 -a arg -b -A --loll"
