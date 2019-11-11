@@ -2,6 +2,7 @@
 
 echo "teeme midagi"
 # siin teeme
+
 echo -e "kas sa oled rahul? [Jah/ei] \c"
 read answer junk
 unset junk
@@ -13,5 +14,5 @@ case $answer in
     ei) echo "paha lugu" ;;
     yes) echo "ok" ;;
     [Nn]*) echo "too bad" ;;
-    *) echo "teine kord siis" ;;
+    *) echo "Vastus pidi olema 'jah' või 'ei'" ;;
 esac
