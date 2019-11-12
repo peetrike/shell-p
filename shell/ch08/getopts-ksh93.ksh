@@ -33,7 +33,7 @@ for filename in "$@"; do
             fi ;;
         *.s )
             objname=${filename%.s}.o
-            as "$filename" "$objname" ;;
+            as "$filename" "$objname"
             if [[ $opt == true ]]; then
                 optimize "$objname"
             fi ;;
