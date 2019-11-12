@@ -15,7 +15,7 @@ do
        \?)
             if [ 0 -eq "$usage_showed" ]
             then
-                echo "usage: $0 -a arg -b -A --loll"
+                echo "usage: $0 -a arg -b -A --long"
                 usage_showed=1
             fi
         ;;
