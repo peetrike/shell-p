@@ -9,5 +9,7 @@ pause() {
 . "$scriptpath/day"
 
 day
+type day
+command -V day
 pause
 echo "valmis"
