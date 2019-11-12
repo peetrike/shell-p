@@ -17,6 +17,8 @@ echo ${#minumuutuja}
 
     # see töötab ksh-ga aga mitte bashiga
 set -A massiiv yks kaks kolm neli viis kuus
+    # see töötab ksh93 ja bash shellis
+massiiv=(yks kaks kolm neli viis kuus)
 
 echo ${massiiv[1]}
 echo ${massiiv[2]}
