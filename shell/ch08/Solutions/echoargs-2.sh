@@ -21,7 +21,7 @@ shift $((OPTIND-1))
     # do the stuff
 if [ $opt_l -eq 0 ] ; then
         # put every parameter on separate line
-    for word # in "$@"
+    for word #in "$@"
     do
         echo $word
     done
