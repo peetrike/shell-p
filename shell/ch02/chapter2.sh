@@ -1,7 +1,17 @@
 # mõned näited peatüki teemadel
 
+# type käsu näited
+type ls
+type sh
+type echo
+
 # mis protsessid praegu jooksevad
 ps -f
+
+# taustatööd
+sleep 30 &
+jobs
+
 
 # output/error redirect
     # töötab
