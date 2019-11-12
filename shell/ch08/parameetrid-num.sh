@@ -2,7 +2,7 @@
 
 echo "Praegu on $# parameetrit"
 
-for parameeter 
+for parameeter
 do
     echo $parameeter
 done
@@ -17,5 +17,6 @@ done
 
 echo "nüüd on järgi $# parameetrit"
 
+# set filenames from cwd as parameters
 set *
 echo "nüüd on järgi $# parameetrit"
