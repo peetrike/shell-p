@@ -5,6 +5,8 @@ mylongvar="minu pikk tekst"
 my_var=ahhaa
 file=minu
 mycommand=ls
+
+
 export numdays=30 nummonths=3
 export mynum #=2
 
