@@ -1,4 +1,5 @@
 #!/bin/sh
+# the mechanics of script will be more clear after Chapter 7
 
 bang=$(head -n 1 $0 | grep -E '^#!' | cut -c3-)
 if [ -n "$bang" ]; then
