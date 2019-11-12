@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "teeme midagi"
 # siin teeme
 
-echo -e "kas sa oled rahul? [Jah/ei] \c"
+echo "kas sa oled rahul? [Jah/ei] \c"
 read answer junk
 unset junk
 
