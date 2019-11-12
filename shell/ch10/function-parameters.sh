@@ -8,10 +8,12 @@ shifter() {
     echo $1
 }
 
-echo "väljas on $# parameetrit"
+echo "skriptis on $# parameetrit"
 echo "need on: $*"
 
 shifter "$@"
 echo "pärast funktsiooni: $*"
 
-shifter -- kolm neli viis
+echo
+echo proovime uute parameetritega
+shifter -- yks kaks kolm
