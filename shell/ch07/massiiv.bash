@@ -15,7 +15,7 @@ echo "kokku on ${#massiiv[*]} elementi"
 minumuutuja=hurraa
 echo ${#minumuutuja}
 
-    #see töötab bashiga, aga mitte ksh-ga
+    #see töötab bashiga, aga mitte ksh88-ga
 massiiv=(yks kaks kolm neli viis kuus)
 
 echo ${massiiv[1]}
