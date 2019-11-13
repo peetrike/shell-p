@@ -11,7 +11,7 @@ fi
 ps $$ | tail -n 1 | while
     read pid tty stat time command
 do
-    command=${command##-}
+    command=${command#-}
     runner=$(command -v ${command%% *})
     echo "This script runs with:" $runner
 done
