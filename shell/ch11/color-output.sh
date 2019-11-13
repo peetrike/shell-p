@@ -14,6 +14,7 @@ shadow=$(tput sshm)
 
 redback=$(tput setab 1)
 redfore=$(tput setaf 1)
+whitefore=$(tput setaf 15)
 bluefore=$(tput setaf 4)
 
 showclock () {
@@ -41,7 +42,7 @@ echo "${standout}standout${normal} and ${reverse}reverse${normal} ..."
 sleep 1
 
 tput cup 9 52
-echo "${redback}red background?${normal}"
+echo "${redback}${whitefore}red background?${normal}"
 sleep 1
 
 tput cup 6 48
