@@ -1,1 +1,1 @@
-day() { date +'%A, %B %e'; }
+day() { date +'%A, %e. %B'; }
