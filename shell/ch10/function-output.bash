@@ -1,7 +1,7 @@
-#!/bin/sh
 #!/bin/bash
-#!/bin/dash
 #!/bin/ksh
+#!/bin/sh
+#!/bin/dash
 
 miski() {
     echo yks
@@ -12,7 +12,7 @@ sissevalja() {
     local number=1
     while read rida
     do
-        echo -e "$number\t$rida"
+        echo -e "$number\t$rida"  # dash ei saa aru, mis -e on (tuleb ära korjata)
         number=$((number+1))
     done
 }
