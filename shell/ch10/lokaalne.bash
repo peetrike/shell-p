@@ -12,8 +12,8 @@ miski() {
 global=algne
 override=skript
 
-echo "skriptis, enne funktsiooni: " $minu $korn $global $override $uus
+echo "skriptis, enne funktsiooni: " ${minu-minu puudub} ${korn-korn puudub} $global $override ${uus-uus puudub}
 
 miski
 
-echo "skriptis, pärast funktsiooni: " $minu $korn $global $override $uus
+echo "skriptis, pärast funktsiooni: " ${minu-minu puudub} ${korn-korn puudub} $global $override ${uus-uus puudub}
